@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-.clearfix{
+.clearfix:after {
     content:'';
     display: table;
     width: 100%;
@@ -26,7 +26,7 @@ header {
 }
 
 .container {
-    width: 1500px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ nav {
 }
 
 .titles h1 {
-    font-size: 72px;
+    font-size: 60px;
     font-weight: bold;
     color: #ffffff;
     text-align: center;
@@ -89,6 +89,46 @@ nav {
     border-radius: 30px;
     border-style: solid;
     border-color:black;
-    margin-top: 195px;
-    
+    margin-top: 195px;   
+}
+
+.about {
+    padding-top: 115px;
+    padding-bottom: 150px;
+}
+
+.about p {
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 60px;
+    text-indent: 30px;
+}
+
+.photos {
+    background-color: #f9eef9;
+}
+
+.maunt {
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+
+#mal {
+    float: left;
+}
+
+#mar {
+    float: right;
+}
+
+footer {
+    background-color: #eaeaea;
+}
+
+.contacts {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
