@@ -6,7 +6,9 @@
 body {
     font-family: arial, sans-self;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    width: 1200px;
+    
 }
 
 .clearfix:after {
